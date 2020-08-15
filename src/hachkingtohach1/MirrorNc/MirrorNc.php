@@ -30,7 +30,7 @@ class MirrorNc extends PluginBase {
 	CONST MAX_DISTANCE = 2;
 	CONST STANDARD_TIME = 100;
 	
-	/** @var null $instance*/
+	/** @var $instance*/
 	private static $instance = null;
 	
 	/** @var int $maxMemory*/
