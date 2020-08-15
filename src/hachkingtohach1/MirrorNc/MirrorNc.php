@@ -50,7 +50,7 @@ class MirrorNc extends PluginBase {
     }
 	
 	public function onEnable(){
-		$this->getScheduler()->scheduleRepeatingTask(new ProcessSystem($this), 20);
+		$this->getScheduler()->scheduleRepeatingTask(new ProcessSystem(), 20);
 	}
 	
 	public function onDisable(){}
