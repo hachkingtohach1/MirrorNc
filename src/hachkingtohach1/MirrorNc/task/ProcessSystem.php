@@ -40,6 +40,8 @@ class ProcessSystem extends Task {
 	/** @var bool $restart*/
 	private $restart = false;
 	
+	public function __construct(){}
+	
 	public function onRun(int $currentTick){
 		$prefix = MirrorNc::getInstance()->prefix;
 		$loadServer = MirrorNc::getInstance()->getLoadServer();
